@@ -1,0 +1,97 @@
+--------------------
+[*] configurate ffmpeg
+--------------------
+/Users/linjiansheng/Develop/Lebo/ijkplayer-lebo/android/contrib/build/ffmpeg-armv7a/toolchain/bin//arm-linux-androideabi-gcc
+install prefix            /Users/linjiansheng/Develop/Lebo/ijkplayer-lebo/android/contrib/build/ffmpeg-armv7a/output
+source path               .
+C compiler                arm-linux-androideabi-gcc
+C library                 bionic
+host C compiler           gcc
+host C library
+ARCH                      arm (cortex-a8)
+big-endian                no
+runtime cpu detection     yes
+ARMv5TE enabled           yes
+ARMv6 enabled             yes
+ARMv6T2 enabled           yes
+VFP enabled               yes
+NEON enabled              yes
+THUMB enabled             yes
+debug symbols             yes
+strip symbols             yes
+optimize for size         yes
+optimizations             yes
+static                    yes
+shared                    no
+postprocessing support    no
+network support           yes
+threading support         pthreads
+safe bitstream reader     yes
+texi2html enabled         yes
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          yes
+makeinfo supports HTML    no
+
+External libraries:
+openssl          xlib             zlib
+
+External libraries providing hardware acceleration:
+
+Libraries:
+avcodec          avformat         swresample
+avfilter         avutil           swscale
+
+Programs:
+
+Enabled decoders:
+aac          h263i            mp3adufloat          vp6a
+aac_latm         h263p            mp3float         vp6f
+ac3          h264             mp3on4           vp8
+flac             hevc             mp3on4float          vp9
+flv          mp3              mpeg4
+h263             mp3adu           vp6
+
+Enabled encoders:
+
+Enabled hwaccels:
+
+Enabled parsers:
+aac          flac             hevc             vp9
+aac_latm         h263             mpeg4video
+ac3          h264             mpegaudio
+
+Enabled demuxers:
+aac          hevc             mov              rtsp
+asf          hls              mp3              sdp
+concat           live_flv         mpegps           webm_dash_manifest
+data             loas             mpegts
+flac             m4v              mpegvideo
+flv          matroska         rm
+
+Enabled muxers:
+
+Enabled protocols:
+async            hls              ijkmediadatasource       rtp
+cache            http             ijksegment           srtp
+concat           httpproxy        ijktcphook           subfile
+crypto           https            md5              tcp
+data             icecast          pipe             tee
+ffrtmphttp       ijkhttphook          prompeg          tls_openssl
+file             ijkio            rtmp             udp
+ftp          ijklongurl       rtmpt            udplite
+
+Enabled filters:
+
+Enabled bsfs:
+aac_adtstoasc        extract_extradata    mp3_header_decompress    remove_extradata
+chomp            h264_mp4toannexb     mpeg4_unpack_bframes     vp9_raw_reorder
+dca_core         hevc_mp4toannexb     noise            vp9_superframe
+dump_extradata       imx_dump_header      null             vp9_superframe_split
+
+Enabled indevs:
+
+Enabled outdevs:
+
+License: LGPL version 2.1 or later
+
