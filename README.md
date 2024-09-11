@@ -313,9 +313,7 @@ cd ios
 
 
 ### Support (支持) ###
-- Please do not send e-mail to me. Public technical discussion on github is preferred.
-- 请尽量在 github 上公开讨论[技术问题](https://github.com/bilibili/ijkplayer/issues)，不要以邮件方式私下询问，恕不一一回复。
-
+- 乐播相关修改主要基于bilibili的ijk开源项目，相关技术支持请参考bilibili原开源项目相关技术支持声明
 
 ### License
 
